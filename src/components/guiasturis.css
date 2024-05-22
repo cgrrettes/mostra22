@@ -1,0 +1,67 @@
+.guias { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+  
+.btn-outline-light {
+    width: 120px; /* Define a largura do botão */
+  }
+
+.btn-outline-dark{
+    width: 220px; /* Define a largura do botão */
+}
+  
+.guias li {
+    width: calc(50% - 20px); /* 20px é o espaçamento entre os cartões */
+    margin-bottom: 20px;
+    background-color: rgb(102, 166, 226);
+}
+
+@media only screen and (min-width: 600px) {
+    .guias li {
+        width: calc(33.33% - 20px); /* 20px é o espaçamento entre os cartões */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .guias li {
+        width: calc(25% - 20px); /* 20px é o espaçamento entre os cartões */
+    }
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Alinha o texto ao centro */
+  }
+  
+  .cartao ul {
+    padding: 0;
+    margin: 20px 0; /* Adiciona espaço entre os textos e o botão */
+  }
+  
+  .cartao li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  
+  .card ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove os marcadores de lista */
+  }
+  
+  .card li {
+    margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+  }
+  
+
+  

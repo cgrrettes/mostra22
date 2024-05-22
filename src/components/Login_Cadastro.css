@@ -1,0 +1,135 @@
+.input-box input::placeholder {
+    color: #00b7ff;
+  }
+  
+  .input-box input:focus {
+    background: transparent;
+  }
+
+    .cadastro-form{
+      margin-top: 20px;
+    }
+
+  
+  .cadastro-form .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -10px 2 15px;
+  }
+  
+  .remember-forgot label input {
+    accent-color: #9c0505;
+    margin-right: 4px;
+  }
+  
+  .remember-forgot a {
+    color: #790707;
+    margin-right: 4px;
+  }
+
+
+  .cadastro-form button {
+    width: 100%;
+    height: 45%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(19, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    background: #009dd6 !important;
+    color: tomato;
+    padding: 15px 35px 18px 20px;
+  }
+  
+  .cadastro-form .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-link p a {
+    color: #203f5160;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .cadastro-form input::placeholder {
+    color: #5675868e;
+  }
+  
+  .input-box input:focus {
+    background: transparent;
+  }
+  
+  .cadastro-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+    color: #203F51;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    font-family: 'roboto';
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+  }
+  
+  .cadastro-form h2 {
+    margin-bottom: 20px;
+    color: #203F51;
+  }
+  
+  .cadastro-form input[type="email"],
+  .cadastro-form input[type="password"] {
+    margin-bottom: 15px;
+  }
+  
+  .cadastro-form .btn {
+    margin-top: 15px;
+  }
+  
+  .mb-3 input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #203F51;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color: #203F51 !important;
+    margin-top: 10px;
+    
+  }
+  
+  .mb-3 input:focus {
+    background: transparent;
+
+  }
+  
+  .cadastro-form button {
+    width: 100%;
+    height: 45%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0 , 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    background: #3B6978 !important;
+    color: white;
+    padding: 15px 35px 18px 20px;
+  }
+  
+  .custom-button:hover {
+    background-color: #203F51 !important;
+    color: #000000 !important;
+  }
+  

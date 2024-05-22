@@ -1,0 +1,448 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 24px;
+  width: 100%;
+}
+
+
+.services > li {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.services > li > .card-image {
+  width: 100%;
+}
+
+
+section:not(.hero) {
+  padding: var(--pg-margin);
+}
+
+
+#locate p {
+  width: 80%;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+:root {
+  --pg-margin: 24px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 24px;
+}
+
+
+section:not(.hero) {
+  padding: var(--pg-margin);
+}
+
+
+#locate p {
+  width: 60%;
+}
+
+}
+
+
+.card-large,
+.card-med {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: var(--hover-timing);
+  cursor: pointer;
+}
+
+.card-large {
+  box-shadow: var(--card-shadow);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  color: #3B6978
+  /*    padding-bottom: 32px;*/
+}
+
+
+.texto-serviços{
+  font-family: Verdana;
+  max-width: -10px;
+}
+
+.texto-serviços2{
+  position: relative;
+  font-family: Verdana;
+}
+
+
+.card-large:hover {
+  box-shadow: var(--card-hover);
+  transform: scale(1.01);
+}
+
+
+.card-med:hover .card-image {
+  transform: scale(1.01);
+}
+
+.card-image1 {
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 1/1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--hover-timing);
+}
+
+
+.card-large > .card-image {
+  aspect-ratio: 3/2;
+}
+
+
+.card-image2 > img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  object-fit: contain;
+  position: relative;
+
+}
+
+
+.card-large a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.card-large > .card-image > a {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+
+
+
+button.btn-outline {
+  color: var(--light-01);
+  border-color: var(--light-01);
+}
+
+
+button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.btn-outline-dark {
+  color: var(--text-01);
+  background: none;
+  color: var(--text-01);
+  border: 2px solid var(--text-01);
+  
+}
+
+.btn-filled-dark {
+  color: var(--light-01);
+  background: var(--text-01);
+  color: var(--light-01);
+  border: 2px solid var(--text-01);
+  padding-bottom: 10px;
+}
+
+
+button:hover,
+.btn-outline-dark.btn-hover-color:hover {
+  color: var(--light-01);
+  border: 2px solid var(--brand-01);
+  background: var(--brand-01);
+  transition: var(--hover-timing);
+  box-shadow: var(--card-hover);
+}
+
+
+
+section,
+footer {
+  position: relative;
+  width: 100%;
+  padding: 0 var(--pg-margin);
+}
+
+
+section.hero {
+  height: 530px;
+  background: var(--brand-02) url('') no-repeat center right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  grid-gap: 48px;
+  
+}
+
+
+.Mille {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
+}
+
+
+.Matheus {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
+  position: relative;
+  bottom: 135px;
+}
+
+
+.Julia {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  grid-gap: 16px;
+
+}
+
+
+section.hero h1 {
+  font-size: var(--hero-text);
+  font-weight: 600;
+  line-height: 0;
+  width: 20%;
+  color: var(--text-01);
+
+
+}
+
+
+section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--text-01);
+  margin-bottom: 32px;
+}
+
+
+.card-wide {
+  flex-direction: row;
+  padding: 0;
+}
+
+
+.card-wide .card-image {
+  width: 50%;
+  border-radius: 0;
+}
+
+
+.card-image img {
+  width: 60%;
+  height: 60%;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+
+.card-wide > ul {
+  padding: 40px;
+}
+
+
+.card-wide > ul > li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-gap: 24px;
+  margin-bottom: 16px;
+}
+
+
+
+
+.card-large.card-light .subtitle {
+  font-size: 45px;
+  line-height: 1.4;
+  font-weight: 500;
+
+
+  margin-bottom: 24px;
+}
+
+
+.card-wide > ul > li span {
+  font-size: 16px;
+}
+
+
+.card-large > ul > li:last-of-type {
+  margin-bottom: 40px;
+}
+
+
+
+
+.card-large button {
+  margin-top: auto;
+}
+
+
+#locate > div {
+  background: var(--brand-02);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  transition: var(--hover-timing);
+  cursor: pointer;
+  text-align: center;
+
+}
+
+
+#locate > div:hover {
+  box-shadow: var(--card-hover);
+}
+
+
+#locate h2 {
+  margin-top: 0;
+}
+
+
+#locate p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
+}
+
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 16px;
+}
+
+
+section.hero h1 {
+    font-size: var(--hero-text);
+    font-weight: 600;
+    line-height: 1.2;
+    width: 40%;
+    color: var(--text-01);
+}
+
+section.hero {
+  aspect-ratio: 3/1;
+  background-size: 30%;
+  background-position: 90% 60%;
+}
+
+section.hero h1 {
+--hero-text: 40px;
+width: 100%
+}
+
+section.hero h1 {
+--hero-text: 56px;
+font-size: 40px;
+}
+
+section.hero h1 {
+  --hero-text: 48px;
+}
+
+
+.img-principal{
+    position: relative;
+    right: -1100px;
+    height: 250px;
+
+  }
+
+
+  .btn-group {
+      flex-direction: row;
+  }
+
+  :root {
+    --pg-margin: 80px;
+}
+
+
+
+.services {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 24px;
+}
+
+.textprincipal{
+    position: relative;
+    top: 150px;
+    height: 120px;
+    font-size: 10px;
+  }
+  
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
+section:not(.hero) {
+    padding: var(--pg-margin);
+}
+
+
+#locate p { width: 60%;
+}
+
