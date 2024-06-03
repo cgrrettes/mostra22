@@ -19,22 +19,22 @@ function Home() {
       </section>
 
       <section id="serv-groom">
+
         <h2>Serviços</h2>
         <ul className="services">
           <li className="card-large card-dark card-wide">
-            <div className="card-image1">
-              <img src={require('../assets/localização4.png')} alt="Localização" />
-            </div>
-            <div>
-              <br></br>
-              <h1 >Guias por Localização.</h1>
-              <br></br>
-              <p className='texto-serviços'>Nosso guia por localização é a ferramenta perfeita para explorar destinos turísticos de forma fácil e conveniente.</p>
-              <br></br>
-              <br></br>
-              <br></br>
 
+              <div className="card-image1">
+               <img src={require('../assets/localização4.png')} alt="Localização" />
+               </div>
+
+
+            <div className='topicoservicos'>
+              <h1 >Guias por Localização.</h1>
+              <p>Nosso guia por localização é a ferramenta perfeita para explorar destinos turísticos de forma fácil e conveniente.</p>
               <button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button>
+
+              
             </div>
           </li>
 
@@ -42,16 +42,15 @@ function Home() {
             <div className="card-image2">
               <img src={require('../assets/guias.png')} alt="Guias Turísticos" />
             </div>
-            <div className='youtube'>
-              <br></br>
+
+
+            <div className='guiasturis'>
+            
               <h1>Guias Turísticos</h1>
-              <br></br>
-              <p className='texto-serviços2'>Nossos guias são pensados de acordo com as suas preferências individuais, oferecendo as recomendações mais acessíveis e pensando nas suas necessidades.</p>
-              <br></br>
-              <br></br>
-              <br></br> 
+              <p>Nossos guias são pensados de acordo com as suas preferências individuais, oferecendo as recomendações mais acessíveis e pensando nas suas necessidades.</p>
               <a href ='./guiasturis'><button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button></a>
             </div>
+            
           </li>
         </ul>
       </section>

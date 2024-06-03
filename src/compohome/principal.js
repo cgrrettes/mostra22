@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from './compohome/nav';
 import Home from './compohome/Home';
 import Footer from './footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import CadastroForm from './compohome/cadastro';
 import Sobreosite from './compohome/sobreosite';
 import Guiasturis from './compohome/guiasturis';

@@ -1,8 +1,9 @@
-/* Estilos para a seção "Sobre nosso site" */
+
 .sobresite {
     background-color: #f9f9f9;
     padding: 20px;
     text-align: center;
+    align-items: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -10,13 +11,14 @@
   .sobresite h1 {
     font-size: 24px;
     color: #333;
-    margin-bottom: 16px;
+    margin-top: 30px;
   }
   
   .sobresite p {
     font-size: 16px;
     color: #666;
     line-height: 1.5;
+    margin: 80px;
   }
   
   .sobresite img {
@@ -25,30 +27,6 @@
     margin-top: 20px;
   }
   
-  /* Estilos para a seção "Informações sobre Deficientes" */
-  .secao-deficientes {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-  }
-  
-  .secao-deficientes h2 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 16px;
-  }
-  
-  .secao-deficientes ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .secao-deficientes li {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 10px;
-  }
   
   /* Estilos para o vídeo sobre deficientes */
   .video-deficientes {
@@ -64,6 +42,7 @@
   
   button.btn-contato{
    margin-top: 40px;
-
+   right: 270px;
+   position: relative;
    margin-left: 830px;
   }

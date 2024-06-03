@@ -74,16 +74,6 @@ section:not(.hero) {
 }
 
 
-.texto-serviços{
-  font-family: Verdana;
-  max-width: -10px;
-}
-
-.texto-serviços2{
-  position: relative;
-  font-family: Verdana;
-}
-
 
 .card-large:hover {
   box-shadow: var(--card-hover);
@@ -95,7 +85,7 @@ section:not(.hero) {
   transform: scale(1.01);
 }
 
-.card-image1 {
+.card-image1 { /* IMAGEM SERVICOS - GUIA LOCALIZ*/
   width: 200px;
   height: 200px;
   aspect-ratio: 1/1;
@@ -106,6 +96,8 @@ section:not(.hero) {
   align-items: center;
   justify-content: center;
   transition: var(--hover-timing);
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 
@@ -114,15 +106,35 @@ section:not(.hero) {
 }
 
 
-.card-image2 > img {
+.card-image2 > img { /* IMAGEM SERVICOS - GUIA TURIS*/
   width: 200px;
   height: 200px;
   position: absolute;
   object-fit: contain;
   position: relative;
-
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
+.topicoservicos{
+  position: relative;
+  font-family: Verdana;
+  text-align: left;
+  margin: 5px;
+} 
+
+.topicoservicos, h1, p{ /* texto localizacao */
+margin-left: 150px;
+top: -200px;
+}
+
+.guiasturis{ /* texto guias turist */
+  position: relative;
+  font-family: Verdana;
+  text-align: left;
+  margin: 5px;
+  top: -200px;
+}
 
 .card-large a {
   text-decoration: none;
@@ -300,8 +312,6 @@ section h2 {
   font-size: 45px;
   line-height: 1.4;
   font-weight: 500;
-
-
   margin-bottom: 24px;
 }
 
@@ -316,10 +326,10 @@ section h2 {
 }
 
 
-
-
-.card-large button {
+.card-large button { /*botao servicos */
   margin-top: auto;
+  margin-left: 250px;
+  margin-bottom: 30px;
 }
 
 
