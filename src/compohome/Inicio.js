@@ -1,26 +1,26 @@
 import React from 'react';
-
+import Navbar from './nav';
+import '../components/inicio.css';
+import '../assets/logotur.png';
+import { Link } from 'react-router-dom'
 
 function Inicio() {
   return (
     <div className="App">
-      <nav className="navbar">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Contato</a></li>
-          <li><a href="#contact">Serviços</a></li>
-        </ul>
-      </nav>
-      <div className="container">
+    <Navbar/>
+     <div className="container">
         <div className="text-section">
-          <h1>Bem-vindo ao Nosso Site</h1>
-          <p>Seja agora um usuário da nossa plataforma, sendo intuita e acessível.</p>
-          <button>Saiba Mais</button>
+          <h1>Conectando viajantes a 
+            experiências únicas</h1>
+          <p>Seja agora um usuário da nossa plataforma intuita e acessível.</p>
         </div>
-        <div className="image-section">
-        
+        <div className="imginicio">
+        <img src={require('../assets/amarelo2.jpeg')} width={1083} alt="Imagem Inicio" />
         </div>
+          <button className='camile-botao'>Vamos começar! </button>
+      </div>
+      <div className="faixa">
+      <img src={require('../assets/faixa.png')} width={300} height={30} alt="Imagem Inicio" />
       </div>
     </div>
   );

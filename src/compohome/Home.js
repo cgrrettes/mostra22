@@ -1,20 +1,22 @@
 import '../components/home.css';
 import '../App.css';
 import { Link } from 'react-router-dom'
+import Navbar from './nav';
+import Footer from '../footer';
 
 function Home() {
   return (
     <div className="Home">
-      
+      <Navbar/>
       <section className="hero">
 
         <h1 className='textprincipal'>Explore Salvador da forma mais acessível para você.</h1>
         <div className="img-principal">
-          <img src={require('../assets/imagem3.png')} width={390} alt="Imagem Principal" />
+          <img className='fotopric' src={require('../assets/imagem3.png')} width={390} alt="Imagem Principal" />
         </div>
 
         <div className="Matheus">
-        <a href ='/sobreosite'><button className="btn-filled-dark"><span className="material-symbols-outlined">Sobre o nosso site</span></button></a>
+        <a href ='/sobreosite'><button className="btn-filled-darks"><span className="material-symbols-outlined">Sobre o nosso site</span></button></a>
         </div>
       </section>
 
@@ -31,8 +33,8 @@ function Home() {
 
             <div className='topicoservicos'>
               <h1 >Guias por Localização.</h1>
-              <p>Nosso guia por localização é a ferramenta perfeita para explorar destinos turísticos de forma fácil e conveniente.</p>
-              <button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button>
+              <p className='jjk'>Nosso guia por localização é a ferramenta perfeita para explorar destinos turísticos de forma fácil e conveniente.</p>
+              <button className="btan-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button>
 
               
             </div>
@@ -46,8 +48,8 @@ function Home() {
 
             <div className='guiasturis'>
             
-              <h1>Guias Turísticos</h1>
-              <p>Nossos guias são pensados de acordo com as suas preferências individuais, oferecendo as recomendações mais acessíveis e pensando nas suas necessidades.</p>
+              <h1 className='txtp1'>Guias Turísticos</h1>
+              <p className='txtp1'>Nossos guias são pensados de acordo com as suas preferências individuais, oferecendo as recomendações mais acessíveis e pensando nas suas necessidades.</p>
               <a href ='./guiasturis'><button className="btn-filled-dark"><span className="material-symbols-outlined">Saiba mais</span></button></a>
             </div>
             
@@ -64,6 +66,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

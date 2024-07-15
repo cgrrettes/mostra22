@@ -1,8 +1,10 @@
 import '../components/guiasturis.css'; // Importação do arquivo CSS correto
-
+import Footer from '../footer';
+import Navbar from './nav';
 function Guiasturis() {
   return (
     <div>
+         <Navbar/>
       <section>
         <h2>Destinos Populares</h2>
 
@@ -34,7 +36,7 @@ function Guiasturis() {
         </ul>
         
       </section>
-
+     <Footer/>
     </div>
   );
 }

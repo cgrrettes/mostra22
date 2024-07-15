@@ -2,6 +2,7 @@
 .sobresite {
     background-color: #f9f9f9;
     padding: 20px;
+    margin: 0;
     text-align: center;
     align-items: center;
     border-radius: 8px;
@@ -9,16 +10,22 @@
   }
   
   .sobresite h1 {
-    font-size: 24px;
-    color: #333;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 30px;
+    color: #203F51;
     margin-top: 30px;
   }
   
   .sobresite p {
     font-size: 16px;
-    color: #666;
+    color: #203F51;
     line-height: 1.5;
-    margin: 80px;
+    text-align: justify;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
   
   .sobresite img {
@@ -38,11 +45,14 @@
     height: 315px;
     border: none;
     border-radius: 8px;
+    margin: 100px;
   }
   
   button.btn-contato{
-   margin-top: 40px;
-   right: 270px;
+   margin: auto;
+   display: block;
+   color: #f9f9f9;
+   margin-top: 120px;
    position: relative;
-   margin-left: 830px;
+   background-color: #3B6978
   }

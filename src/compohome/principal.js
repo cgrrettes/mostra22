@@ -8,7 +8,7 @@ import Sobreosite from './compohome/sobreosite';
 import Guiasturis from './compohome/guiasturis';
 import Inicio from './compohome/Inicio';
 
-function App() {
+function App() {  
   return (
     <Router>
       <div className="App">
